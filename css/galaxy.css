@@ -1,0 +1,88 @@
+body {
+	font-family: Avenir, sans-serif;
+	font-size: 0.8rem;
+	margin: 0;
+    color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: changa-one, sans-serif;
+  background-color: #FFF;
+  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=');
+}
+
+#headline {
+	text-align: center;
+	color: #FFF;
+}
+
+#pink {
+	border-bottom: 2px solid deeppink;
+	padding-bottom: 0.25rem;
+}
+
+circle {
+	fill: #fff;
+	stroke: white;
+	stroke-width: 10px;
+}
+
+line {
+	stroke: #ccc;
+	stroke-width: 0.5px;	
+}
+
+.label {
+	fill: #FFF;
+}
+
+#note {
+	fill: #aaa;
+	font-size: 0.7rem;
+}
+
+a, a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: #999;
+}
+a:hover {
+	color: deeppink;
+}
+a:active {
+	color: #999;	
+}
+
+
+#tooltip {
+  position: absolute;
+  display: inline-block;
+  color: #555;
+  font-size: 11px;
+  text-align: left;
+  background: #fafafa;
+  box-shadow: 2px 2px 5px rgba(0, 0, 20, 0.25);
+  pointer-events: none;
+  line-height: 200%;
+  max-width: 250px;
+
+  opacity: 0;
+}
+
+#theader {
+  padding: 10px;
+  border-bottom: 1px solid pink;
+  color: #666;
+  font-weight: bold;
+  font-size: 0.9rem; 
+}
+
+#small {
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+#tbody {
+  padding: 10px;
+  font-size: 0.7rem;
+}
